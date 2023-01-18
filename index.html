@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex js</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+    
+        
+</head>
+
+<body>
+    <div class="logo">
+        <img src="./assets/img/Logopokemon-PhotoRoom.png-PhotoRoom.png" alt="Logo pokemon" />
+    </div>
+    <div class="buscador">
+        <form class="d-flex">
+            <input id="namePokemon" class="form-control" type="search" placeholder="Search" aria-label="Search">
+            <button id="searchPokemon" type="button" class="btn btn-outline-success">Search</button>
+            <button id="mostrarLista" type="button" class="btn btn-outline-success">Mostrar Lista</button>
+            <button id="searchPokemon" type="button" class="btn btn-outline-success" onclick="showPokemonAdded()">Mostrar pokemones agregados</button>
+    </div>
+    <div id="listaPokemon" class="listaPokemon">
+
+    </div>
+
+    <script src="./assets/js/Pokedex.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./assets/js/sweetAlert.js"></script>
+    <script src="sweetalert2.all.min.js"></script>
+</body>
+
+</html>

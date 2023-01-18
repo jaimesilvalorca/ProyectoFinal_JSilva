@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    border: 0;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 500px;
+
+}
+
+.buscador{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.listaPokemon{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap: 50px;
+    padding-top: 30px;
+    margin-left: 9%;
+}
+
+.card-pokemon h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.card-body{
+    display: grid;    
+}
